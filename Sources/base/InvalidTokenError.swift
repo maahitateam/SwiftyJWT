@@ -63,7 +63,7 @@ public enum InvalidTokenError: CustomStringConvertible, Error {
             return "Invalid JTI: \(jti)"
         case .invalidOrMissingArgument(let argumentName) :
             return "InvalidOrMissingArgument: \(argumentName)"
-        case .invalidSignature():
+        case .invalidSignature:
             return "InvalidSignature"
         }
     }
