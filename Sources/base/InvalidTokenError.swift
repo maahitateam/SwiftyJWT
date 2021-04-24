@@ -15,7 +15,7 @@ public enum InvalidTokenError: CustomStringConvertible, Error {
     case invalidAlgorithm(String)
     
     /// The JWT signature can not be verified
-    case invalidSignature()
+    case invalidSignature
 
     /// The token has expired
     case expiredToken(String)
